@@ -1,0 +1,504 @@
+digraph G {
+	node [shape=ellipse style=filled]
+	{
+		rank=same
+		2 [label="Fire 🔥" fillcolor="#996500"]
+		1 [label="Water 💧" fillcolor="#9b6300"]
+		3 [label="Wind 🌬️" fillcolor="#a45a00"]
+		4 [label="Earth 🌍" fillcolor="#ba4400"]
+	}
+	{
+		rank=same
+		14 [label="Steam 💨" fillcolor="#b84600"]
+		6 [label="Volcano 🌋" fillcolor="#c03e00"]
+		15 [label="Smoke 💨" fillcolor="#ab5300"]
+		7 [label="Lava 🌋" fillcolor="#af4f00"]
+	}
+	{
+		rank=same
+		106 [label="Fog 🌫️" fillcolor="#ff0000"]
+		62 [label="Engine 🚗" fillcolor="#b04e00"]
+	}
+	{
+		rank=same
+		103 [label="Train 🚂" fillcolor="#ae5000"]
+		89 [label="Rocket 🚀" fillcolor="#a95500"]
+	}
+	{
+		rank=same
+		445 [label="Explosion 💥" fillcolor="#b54900"]
+		91 [label="Space Ship 🚀" fillcolor="#bb4300"]
+		1089 [label="Satellite 🛰️" fillcolor="#c13d00"]
+		185 [label="Ship 🚢" fillcolor="#986600"]
+	}
+	{
+		rank=same
+		98 [label="Firework 🎆" fillcolor="#b54900"]
+		630 [label="Fireworks 🎆" fillcolor="#8e7000"]
+		259 [label="Spaceship 🚀" fillcolor="#946a00"]
+		706 [label="Cannon 🔫" fillcolor="#57a700"]
+	}
+	{
+		rank=same
+		915 [label="Boom 💥" fillcolor="#c23c00"]
+		93 [label="Space 🌌" fillcolor="#b94500"]
+		1478 [label="Missile 💣" fillcolor="#778700"]
+		707 [label="Cannonball 💦" fillcolor="#bd4100"]
+		156 [label="Tsunami 🌊" fillcolor="#cb3300"]
+		1154 [label="Star Wars 🌌" fillcolor="#c33b00"]
+		178 [label="Pirate 🏴‍☠️" fillcolor="#bc4200"]
+		1479 [label="Tank 🛢️" fillcolor="#926c00"]
+		1480 [label="Bomb 💣" fillcolor="#a95500"]
+		1483 [label="Gunpowder 💣" fillcolor="#5ba300"]
+		211 [label="Steamboat 🛳️" fillcolor="#be4000"]
+	}
+	{
+		rank=same
+		377 [label="Submarine 🚤" fillcolor="#c03e00"]
+		1064 [label="War 💥" fillcolor="#936b00"]
+		865 [label="Bullet 🔫" fillcolor="#946a00"]
+		258 [label="Asteroid 💫" fillcolor="#c63800"]
+	}
+	{
+		rank=same
+		1481 [label="Nuclear ☢️" fillcolor="#926c00"]
+		1484 [label="Gun 🔫" fillcolor="#00ff00"]
+	}
+	{
+		rank=same
+		1482 [label="Atomic ☢️" fillcolor="#ac5200"]
+		1140 [label="Laser 🔦" fillcolor="#a35b00"]
+		1485 [label="Machine Gun 🔫" fillcolor="#5ca200"]
+		1487 [label="Soldier 💂" fillcolor="#a75700"]
+		207 [label="Captain 🧑‍✈️" fillcolor="#e81600"]
+		94 [label="Alien 👽" fillcolor="#e41a00"]
+		1488 [label="Grenade 💣" fillcolor="#7f7f00"]
+		1489 [label="Shoot 🔫" fillcolor="#9c6200"]
+		1490 [label="SteamPunk 💨" fillcolor="#ca3400"]
+		1491 [label="Torpedo 🚤" fillcolor="#8b7300"]
+		101 [label="Eruption 🌋" fillcolor="#d52900"]
+		1185 [label="Bullet Train 🚅" fillcolor="#ed1100"]
+		129 [label="Meteor 💫" fillcolor="#db2300"]
+	}
+	{
+		rank=same
+		1486 [label="Ray Gun 🔫" fillcolor="#827c00"]
+		1492 [label="Death Star 🌌" fillcolor="#da2400"]
+		1136 [label="Launch 🚀" fillcolor="#c63800"]
+		146 [label="Sun ☀️" fillcolor="#bf3f00"]
+		1494 [label="General 🌎" fillcolor="#bc4200"]
+		247 [label="Meteorite 💫" fillcolor="#cf2f00"]
+		1495 [label="Arrow 🏹" fillcolor="#ab5300"]
+	}
+	{
+		rank=same
+		1493 [label="Launcher 🚀" fillcolor="#857900"]
+		1496 [label="Bow 🏹" fillcolor="#7c8200"]
+		88 [label="Flame 🔥" fillcolor="#ac5200"]
+	}
+	{
+		rank=same
+		1497 [label="Archer 🏹" fillcolor="#ba4400"]
+		1514 [label="Flamethrower 🔥" fillcolor="#807e00"]
+	}
+	{
+		rank=same
+		1498 [label="Sniper 🎯" fillcolor="#9f5f00"]
+		1515 [label="Flaming Arrow 🏹" fillcolor="#a95500"]
+	}
+	{
+		rank=same
+		1499 [label="Sniper Rifle 🔫" fillcolor="#699500"]
+		1500 [label="Slingshot 🏹" fillcolor="#a25c00"]
+	}
+	{
+		rank=same
+		1501 [label="Catapult 🏹" fillcolor="#976700"]
+		1504 [label="Boomerang 🌀" fillcolor="#b04e00"]
+		1507 [label="Harpoon 🔱" fillcolor="#8d7100"]
+		1512 [label="Sling 💍" fillcolor="#ce3000"]
+		1516 [label="Tank Destroyer 💣" fillcolor="#a25c00"]
+	}
+	{
+		rank=same
+		1502 [label="Trebuchet 🏹" fillcolor="#7e8000"]
+		1505 [label="Boomarang 🌀" fillcolor="#d82600"]
+		1506 [label="Siege 🏰" fillcolor="#bc4200"]
+		1508 [label="Speargun 🔫" fillcolor="#9a6400"]
+		133 [label="Whale 🐳" fillcolor="#cc3200"]
+		290 [label="Boat 🚤" fillcolor="#956900"]
+		1513 [label="Space Harpoon 🔫" fillcolor="#ac5200"]
+		40 [label="Dragon 🐉" fillcolor="#9d6100"]
+	}
+	{
+		rank=same
+		1503 [label="Ballista 🏹" fillcolor="#d42a00"]
+		1081 [label="Spear 🔪" fillcolor="#8f6f00"]
+		1375 [label="Dragon Slayer 🐉" fillcolor="#be4000"]
+	}
+	{
+		rank=same
+		1509 [label="Javelin 🏹" fillcolor="#807e00"]
+	}
+	{
+		rank=same
+		1084 [label="Trident 🔱" fillcolor="#af4f00"]
+	}
+	{
+		rank=same
+		1510 [label="Dynamite 🧨" fillcolor="#b74700"]
+		118 [label="Poseidon 🌊" fillcolor="#e01e00"]
+	}
+	{
+		rank=same
+		131 [label="Fish 🐟" fillcolor="#a35b00"]
+	}
+	{
+		rank=same
+		188 [label="Fishing 🎣" fillcolor="#c53900"]
+	}
+	{
+		rank=same
+		1511 [label="Fishing Rod 🎣" fillcolor="#af4f00"]
+	}
+	intermediate_1140_1484_1486 [shape=point height=.15 width=.15]
+	1140 -> intermediate_1140_1484_1486
+	1484 -> intermediate_1140_1484_1486
+	intermediate_1140_1484_1486 -> 1486
+	intermediate_1084_1507_118 [shape=point height=.15 width=.15]
+	1084 -> intermediate_1084_1507_118
+	1507 -> intermediate_1084_1507_118
+	intermediate_1084_1507_118 -> 118
+	intermediate_706_185_178 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_185_178
+	185 -> intermediate_706_185_178
+	intermediate_706_185_178 -> 178
+	intermediate_88_1484_1514 [shape=point height=.15 width=.15]
+	88 -> intermediate_88_1484_1514
+	1484 -> intermediate_88_1484_1514
+	intermediate_88_1484_1514 -> 1514
+	intermediate_1495_2_88 [shape=point height=.15 width=.15]
+	1495 -> intermediate_1495_2_88
+	2 -> intermediate_1495_2_88
+	intermediate_1495_2_88 -> 88
+	intermediate_1504_1483_1505 [shape=point height=.15 width=.15]
+	1504 -> intermediate_1504_1483_1505
+	1483 -> intermediate_1504_1483_1505
+	intermediate_1504_1483_1505 -> 1505
+	intermediate_1084_1483_1510 [shape=point height=.15 width=.15]
+	1084 -> intermediate_1084_1483_1510
+	1483 -> intermediate_1084_1483_1510
+	intermediate_1084_1483_1510 -> 1510
+	intermediate_706_15_1483 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_15_1483
+	15 -> intermediate_706_15_1483
+	intermediate_706_15_1483 -> 1483
+	intermediate_1500_1479_1516 [shape=point height=.15 width=.15]
+	1500 -> intermediate_1500_1479_1516
+	1479 -> intermediate_1500_1479_1516
+	intermediate_1500_1479_1516 -> 1516
+	intermediate_1064_1478_1481 [shape=point height=.15 width=.15]
+	1064 -> intermediate_1064_1478_1481
+	1478 -> intermediate_1064_1478_1481
+	intermediate_1064_1478_1481 -> 1481
+	intermediate_706_89_1478 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_89_1478
+	89 -> intermediate_706_89_1478
+	intermediate_706_89_1478 -> 1478
+	intermediate_1501_1514_40 [shape=point height=.15 width=.15]
+	1501 -> intermediate_1501_1514_40
+	1514 -> intermediate_1501_1514_40
+	intermediate_1501_1514_40 -> 40
+	intermediate_1484_865_1489 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_865_1489
+	865 -> intermediate_1484_865_1489
+	intermediate_1484_865_1489 -> 1489
+	intermediate_2_1_14 [shape=point height=.15 width=.15]
+	2 -> intermediate_2_1_14
+	1 -> intermediate_2_1_14
+	intermediate_2_1_14 -> 14
+	intermediate_1484_93_94 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_93_94
+	93 -> intermediate_1484_93_94
+	intermediate_1484_93_94 -> 94
+	intermediate_1498_1484_1499 [shape=point height=.15 width=.15]
+	1498 -> intermediate_1498_1484_1499
+	1484 -> intermediate_1498_1484_1499
+	intermediate_1498_1484_1499 -> 1499
+	intermediate_1481_706_1482 [shape=point height=.15 width=.15]
+	1481 -> intermediate_1481_706_1482
+	706 -> intermediate_1481_706_1482
+	intermediate_1481_706_1482 -> 1482
+	intermediate_706_1_156 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_1_156
+	1 -> intermediate_706_1_156
+	intermediate_706_1_156 -> 156
+	intermediate_706_445_1480 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_445_1480
+	445 -> intermediate_706_445_1480
+	intermediate_706_445_1480 -> 1480
+	intermediate_1064_1489_1495 [shape=point height=.15 width=.15]
+	1064 -> intermediate_1064_1489_1495
+	1489 -> intermediate_1064_1489_1495
+	intermediate_1064_1489_1495 -> 1495
+	intermediate_706_14_211 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_14_211
+	14 -> intermediate_706_14_211
+	intermediate_706_14_211 -> 211
+	intermediate_1498_1493_1500 [shape=point height=.15 width=.15]
+	1498 -> intermediate_1498_1493_1500
+	1493 -> intermediate_1498_1493_1500
+	intermediate_1498_1493_1500 -> 1500
+	intermediate_118_1484_131 [shape=point height=.15 width=.15]
+	118 -> intermediate_118_1484_131
+	1484 -> intermediate_118_1484_131
+	intermediate_118_1484_131 -> 131
+	intermediate_1081_1493_1509 [shape=point height=.15 width=.15]
+	1081 -> intermediate_1081_1493_1509
+	1493 -> intermediate_1081_1493_1509
+	intermediate_1081_1493_1509 -> 1509
+	intermediate_1508_1507_1081 [shape=point height=.15 width=.15]
+	1508 -> intermediate_1508_1507_1081
+	1507 -> intermediate_1508_1507_1081
+	intermediate_1508_1507_1081 -> 1081
+	intermediate_2_2_6 [shape=point height=.15 width=.15]
+	2 -> intermediate_2_2_6
+	2 -> intermediate_2_2_6
+	intermediate_2_2_6 -> 6
+	intermediate_1478_185_377 [shape=point height=.15 width=.15]
+	1478 -> intermediate_1478_185_377
+	185 -> intermediate_1478_185_377
+	intermediate_1478_185_377 -> 377
+	intermediate_1483_706_865 [shape=point height=.15 width=.15]
+	1483 -> intermediate_1483_706_865
+	706 -> intermediate_1483_706_865
+	intermediate_1483_706_865 -> 865
+	intermediate_89_62_91 [shape=point height=.15 width=.15]
+	89 -> intermediate_89_62_91
+	62 -> intermediate_89_62_91
+	intermediate_89_62_91 -> 91
+	intermediate_706_2_707 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_2_707
+	2 -> intermediate_706_2_707
+	intermediate_706_2_707 -> 707
+	intermediate_1140_2_146 [shape=point height=.15 width=.15]
+	1140 -> intermediate_1140_2_146
+	2 -> intermediate_1140_2_146
+	intermediate_1140_2_146 -> 146
+	intermediate_1500_865_1512 [shape=point height=.15 width=.15]
+	1500 -> intermediate_1500_865_1512
+	865 -> intermediate_1500_865_1512
+	intermediate_1500_865_1512 -> 1512
+	intermediate_1484_706_1485 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_706_1485
+	706 -> intermediate_1484_706_1485
+	intermediate_1484_706_1485 -> 1485
+	intermediate_1501_1493_1502 [shape=point height=.15 width=.15]
+	1501 -> intermediate_1501_1493_1502
+	1493 -> intermediate_1501_1493_1502
+	intermediate_1501_1493_1502 -> 1502
+	intermediate_2_3_15 [shape=point height=.15 width=.15]
+	2 -> intermediate_2_3_15
+	3 -> intermediate_2_3_15
+	intermediate_2_3_15 -> 15
+	intermediate_445_2_630 [shape=point height=.15 width=.15]
+	445 -> intermediate_445_2_630
+	2 -> intermediate_445_2_630
+	intermediate_445_2_630 -> 630
+	intermediate_1514_1496_1515 [shape=point height=.15 width=.15]
+	1514 -> intermediate_1514_1496_1515
+	1496 -> intermediate_1514_1496_1515
+	intermediate_1514_1496_1515 -> 1515
+	intermediate_1479_706_1064 [shape=point height=.15 width=.15]
+	1479 -> intermediate_1479_706_1064
+	706 -> intermediate_1479_706_1064
+	intermediate_1479_706_1064 -> 1064
+	intermediate_1484_377_1491 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_377_1491
+	377 -> intermediate_1484_377_1491
+	intermediate_1484_377_1491 -> 1491
+	intermediate_706_259_1154 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_259_1154
+	259 -> intermediate_706_259_1154
+	intermediate_706_259_1154 -> 1154
+	intermediate_89_1507_1513 [shape=point height=.15 width=.15]
+	89 -> intermediate_89_1507_1513
+	1507 -> intermediate_89_1507_1513
+	intermediate_89_1507_1513 -> 1513
+	intermediate_15_1_106 [shape=point height=.15 width=.15]
+	15 -> intermediate_15_1_106
+	1 -> intermediate_15_1_106
+	intermediate_15_1_106 -> 106
+	intermediate_1497_1484_1498 [shape=point height=.15 width=.15]
+	1497 -> intermediate_1497_1484_1498
+	1484 -> intermediate_1497_1484_1498
+	intermediate_1497_1484_1498 -> 1498
+	intermediate_1500_1491_1507 [shape=point height=.15 width=.15]
+	1500 -> intermediate_1500_1491_1507
+	1491 -> intermediate_1500_1491_1507
+	intermediate_1500_1491_1507 -> 1507
+	intermediate_1500_1488_1504 [shape=point height=.15 width=.15]
+	1500 -> intermediate_1500_1488_1504
+	1488 -> intermediate_1500_1488_1504
+	intermediate_1500_1488_1504 -> 1504
+	intermediate_14_2_62 [shape=point height=.15 width=.15]
+	14 -> intermediate_14_2_62
+	2 -> intermediate_14_2_62
+	intermediate_14_2_62 -> 62
+	intermediate_706_93_258 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_93_258
+	93 -> intermediate_706_93_258
+	intermediate_706_93_258 -> 258
+	intermediate_1484_1064_1487 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_1064_1487
+	1064 -> intermediate_1484_1064_1487
+	intermediate_1484_1064_1487 -> 1487
+	intermediate_62_62_89 [shape=point height=.15 width=.15]
+	62 -> intermediate_62_62_89
+	62 -> intermediate_62_62_89
+	intermediate_62_62_89 -> 89
+	intermediate_40_1484_1375 [shape=point height=.15 width=.15]
+	40 -> intermediate_40_1484_1375
+	1484 -> intermediate_40_1484_1375
+	intermediate_40_1484_1375 -> 1375
+	intermediate_445_630_915 [shape=point height=.15 width=.15]
+	445 -> intermediate_445_630_915
+	630 -> intermediate_445_630_915
+	intermediate_445_630_915 -> 915
+	intermediate_188_1484_1511 [shape=point height=.15 width=.15]
+	188 -> intermediate_188_1484_1511
+	1484 -> intermediate_188_1484_1511
+	intermediate_188_1484_1511 -> 1511
+	intermediate_1484_6_101 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_6_101
+	6 -> intermediate_1484_6_101
+	intermediate_1484_6_101 -> 101
+	intermediate_1484_259_1140 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_259_1140
+	259 -> intermediate_1484_259_1140
+	intermediate_1484_259_1140 -> 1140
+	intermediate_1136_1488_1493 [shape=point height=.15 width=.15]
+	1136 -> intermediate_1136_1488_1493
+	1488 -> intermediate_1136_1488_1493
+	intermediate_1136_1488_1493 -> 1493
+	intermediate_185_89_259 [shape=point height=.15 width=.15]
+	185 -> intermediate_185_89_259
+	89 -> intermediate_185_89_259
+	intermediate_185_89_259 -> 259
+	intermediate_14_62_103 [shape=point height=.15 width=.15]
+	14 -> intermediate_14_62_103
+	62 -> intermediate_14_62_103
+	intermediate_14_62_103 -> 103
+	intermediate_89_1489_1136 [shape=point height=.15 width=.15]
+	89 -> intermediate_89_1489_1136
+	1489 -> intermediate_89_1489_1136
+	intermediate_89_1489_1136 -> 1136
+	intermediate_1484_14_1490 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_14_1490
+	14 -> intermediate_1484_14_1490
+	intermediate_1484_14_1490 -> 1490
+	intermediate_1495_1489_1496 [shape=point height=.15 width=.15]
+	1495 -> intermediate_1495_1489_1496
+	1489 -> intermediate_1495_1489_1496
+	intermediate_1495_1489_1496 -> 1496
+	intermediate_129_1484_247 [shape=point height=.15 width=.15]
+	129 -> intermediate_129_1484_247
+	1484 -> intermediate_129_1484_247
+	intermediate_129_1484_247 -> 247
+	intermediate_1504_1491_290 [shape=point height=.15 width=.15]
+	1504 -> intermediate_1504_1491_290
+	1491 -> intermediate_1504_1491_290
+	intermediate_1504_1491_290 -> 290
+	intermediate_1484_1480_1488 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_1480_1488
+	1480 -> intermediate_1484_1480_1488
+	intermediate_1484_1480_1488 -> 1488
+	intermediate_1487_706_1494 [shape=point height=.15 width=.15]
+	1487 -> intermediate_1487_706_1494
+	706 -> intermediate_1487_706_1494
+	intermediate_1487_706_1494 -> 1494
+	intermediate_445_89_98 [shape=point height=.15 width=.15]
+	445 -> intermediate_445_89_98
+	89 -> intermediate_445_89_98
+	intermediate_445_89_98 -> 98
+	intermediate_1507_706_133 [shape=point height=.15 width=.15]
+	1507 -> intermediate_1507_706_133
+	706 -> intermediate_1507_706_133
+	intermediate_1507_706_133 -> 133
+	intermediate_185_2_706 [shape=point height=.15 width=.15]
+	185 -> intermediate_185_2_706
+	2 -> intermediate_185_2_706
+	intermediate_185_2_706 -> 706
+	intermediate_706_1140_1492 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_1140_1492
+	1140 -> intermediate_706_1140_1492
+	intermediate_706_1140_1492 -> 1492
+	intermediate_4_2_7 [shape=point height=.15 width=.15]
+	4 -> intermediate_4_2_7
+	2 -> intermediate_4_2_7
+	intermediate_4_2_7 -> 7
+	intermediate_1484_103_1185 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_103_1185
+	103 -> intermediate_1484_103_1185
+	intermediate_1484_103_1185 -> 1185
+	intermediate_1500_1493_1501 [shape=point height=.15 width=.15]
+	1500 -> intermediate_1500_1493_1501
+	1493 -> intermediate_1500_1493_1501
+	intermediate_1500_1493_1501 -> 1501
+	intermediate_706_62_1479 [shape=point height=.15 width=.15]
+	706 -> intermediate_706_62_1479
+	62 -> intermediate_706_62_1479
+	intermediate_706_62_1479 -> 1479
+	intermediate_89_89_1089 [shape=point height=.15 width=.15]
+	89 -> intermediate_89_89_1089
+	89 -> intermediate_89_89_1089
+	intermediate_89_89_1089 -> 1089
+	intermediate_630_89_93 [shape=point height=.15 width=.15]
+	630 -> intermediate_630_89_93
+	89 -> intermediate_630_89_93
+	intermediate_630_89_93 -> 93
+	intermediate_258_1484_129 [shape=point height=.15 width=.15]
+	258 -> intermediate_258_1484_129
+	1484 -> intermediate_258_1484_129
+	intermediate_258_1484_129 -> 129
+	intermediate_1496_1064_1497 [shape=point height=.15 width=.15]
+	1496 -> intermediate_1496_1064_1497
+	1064 -> intermediate_1496_1064_1497
+	intermediate_1496_1064_1497 -> 1497
+	intermediate_1484_178_207 [shape=point height=.15 width=.15]
+	1484 -> intermediate_1484_178_207
+	178 -> intermediate_1484_178_207
+	intermediate_1484_178_207 -> 207
+	intermediate_1507_1484_1508 [shape=point height=.15 width=.15]
+	1507 -> intermediate_1507_1484_1508
+	1484 -> intermediate_1507_1484_1508
+	intermediate_1507_1484_1508 -> 1508
+	intermediate_131_1484_188 [shape=point height=.15 width=.15]
+	131 -> intermediate_131_1484_188
+	1484 -> intermediate_131_1484_188
+	intermediate_131_1484_188 -> 188
+	intermediate_89_1_185 [shape=point height=.15 width=.15]
+	89 -> intermediate_89_1_185
+	1 -> intermediate_89_1_185
+	intermediate_89_1_185 -> 185
+	intermediate_1081_1509_1084 [shape=point height=.15 width=.15]
+	1081 -> intermediate_1081_1509_1084
+	1509 -> intermediate_1081_1509_1084
+	intermediate_1081_1509_1084 -> 1084
+	intermediate_89_2_445 [shape=point height=.15 width=.15]
+	89 -> intermediate_89_2_445
+	2 -> intermediate_89_2_445
+	intermediate_89_2_445 -> 445
+	intermediate_1501_1064_1506 [shape=point height=.15 width=.15]
+	1501 -> intermediate_1501_1064_1506
+	1064 -> intermediate_1501_1064_1506
+	intermediate_1501_1064_1506 -> 1506
+	intermediate_1501_1502_1503 [shape=point height=.15 width=.15]
+	1501 -> intermediate_1501_1502_1503
+	1502 -> intermediate_1501_1502_1503
+	intermediate_1501_1502_1503 -> 1503
+	intermediate_865_1483_1484 [shape=point height=.15 width=.15]
+	865 -> intermediate_865_1483_1484
+	1483 -> intermediate_865_1483_1484
+	intermediate_865_1483_1484 -> 1484
+}
