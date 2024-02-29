@@ -6,9 +6,11 @@
     "baseUrl": "./",
     "paths": {
       "*": [
-        "node_modules/*"
+        "node_modules/*",
+        "*",
       ]
     }
   },
-  "extends": "expo/tsconfig.base"
+  "extends": "expo/tsconfig.base",
+  
 }
