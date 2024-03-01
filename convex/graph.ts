@@ -18,7 +18,30 @@ export const createItem = mutation({
             isNew: isNew
         });
 
-        return newItemId;
+        return await ctx.db.get(newItemId);
+    },
+});
+
+export const getInitialItems = query({
+    args: { desc: v.optional(v.string()) },
+    handler: async (ctx, { desc }) => {
+        let startType = "default";
+        if (desc) {
+            startType = desc;
+        }
+        const starter = await ctx.db
+        .query("starters")
+        .filter((q) => q.eq(q.field("desc"), desc))
+        .first();
+
+        if (!starter) {
+            return [];
+        }
+        console.log(starter);
+
+        const items = await Promise.all(starter.item_ids.map(async (id) => await ctx.db.get(id)));
+        return items;
+
     },
 });
 
@@ -33,7 +56,7 @@ function sortParents(parent_one: Id<"items">, parent_two: Id<"items">) {
 }
 
 
-export const searchCombo = mutation({
+export const searchCombo = query({
     args: { parent_one: v.id("items"), parent_two: v.id("items") },
     handler: async (ctx, { parent_one, parent_two }) => {
 
@@ -48,7 +71,11 @@ export const searchCombo = mutation({
         )
         .first();
 
-        return res;
+        if (!res) {
+            return null;
+        }
+
+        return await ctx.db.get(res.child);
     },
 });
 

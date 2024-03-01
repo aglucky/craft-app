@@ -1,13 +1,12 @@
+import { CraftResponse, CraftResponseType } from "types";
+import { Doc } from "../convex/_generated/dataModel";
 import { z } from "zod";
 
-export const CraftResponse = z.object({
-  first: z.string(),
-  second: z.string(),
-  result: z.string(),
-}).or(z.null());
+export async function fetchCraft(first: Doc<"items">, second: Doc<"items">): Promise<CraftResponseType> {
+  // Add delay of .2 sec
+  await new Promise(resolve => setTimeout(resolve, 500));
 
-export function fetchCraft(first: string, second: string): Promise<any> {
-  return fetch(`https://neal.fun/api/infinite-craft/pair?first=${first}&second=${second}`, {
+  return fetch(`https://neal.fun/api/infinite-craft/pair?first=${first.name}&second=${second.name}`, {
     "headers": {
       "accept": "*/*",
       "accept-language": "en-US,en;q=0.9",
@@ -30,7 +29,7 @@ export function fetchCraft(first: string, second: string): Promise<any> {
     }
     return response.json();
   })
-  .then(data => JSON.stringify(data))
+  .then(data => CraftResponse.parse(data))
   .catch(error => {
     console.error('There was a problem with your fetch operation:', error);
     return null;

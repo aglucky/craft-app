@@ -14,7 +14,6 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
-import type * as craft from "../craft.js";
 import type * as graph from "../graph.js";
 
 /**
@@ -26,7 +25,6 @@ import type * as graph from "../graph.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
-  craft: typeof craft;
   graph: typeof graph;
 }>;
 export declare const api: FilterApi<

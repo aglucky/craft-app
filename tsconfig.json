@@ -7,7 +7,7 @@
     "paths": {
       "*": [
         "node_modules/*",
-        "*",
+        "lib/*",
       ]
     }
   },
