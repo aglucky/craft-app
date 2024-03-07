@@ -29,7 +29,10 @@ export async function fetchCraft(first: Doc<"items">, second: Doc<"items">): Pro
     }
     return response.json();
   })
-  .then(data => CraftResponse.parse(data))
+  .then(data => {
+    console.log(data);
+    return CraftResponse.parse(data)
+  })
   .catch(error => {
     console.error('There was a problem with your fetch operation:', error);
     return null;
